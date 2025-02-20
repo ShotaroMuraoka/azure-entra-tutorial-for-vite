@@ -1,8 +1,16 @@
-# React + Vite
+# Activity Log
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```sh
+npm create vite@latest vitespalocal -- --template react
+cd vitespalocal
+npm install
+npm run dev
+#npm install @azure/msal-browser @azure/msal-react
+# https://github.com/AzureAD/microsoft-authentication-library-for-js/issues/7577
+npm install @azure/msal-browser@3.27.0 @arjenbloemsma/msal-react
+npm install react-bootstrap bootstrap
+```
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Replace '@azure/msal-react' to '@arjenbloemsma/msal-react'.  
+Rewrite App.css and index.css.  
+index.js should be placed in main.jsx.  
