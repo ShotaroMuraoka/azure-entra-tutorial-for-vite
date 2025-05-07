@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 
 import {PublicClientApplication} from '@azure/msal-browser';
-import {MsalProvider} from '@arjenbloemsma/msal-react';
+import {MsalProvider} from '@azure/msal-react';
 import {msalConfig} from './authConfig';
 
 import 'bootstrap/dist/css/bootstrap.min.css';

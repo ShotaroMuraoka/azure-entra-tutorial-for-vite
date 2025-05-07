@@ -42,7 +42,7 @@ npm create vite@latest vitespalocal -- --template react
 cd vitespalocal
 npm install
 npm run dev
-npm install @azure/msal-browser@3.27.0 @arjenbloemsma/msal-react
+npm install @azure/msal-browser@3.27.0 @azure/msal-react
 npm install react-bootstrap bootstrap
 ```
 

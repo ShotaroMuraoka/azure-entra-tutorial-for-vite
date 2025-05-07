@@ -42,7 +42,7 @@ import {callMsGraph} from './graph';
 import {ProfileData} from './components/ProfileData';
 
 // import {AuthenticatedTemplate, UnauthenticatedTemplate, useMsal} from '@azure/msal-react';
-import {AuthenticatedTemplate, UnauthenticatedTemplate, useMsal} from '@arjenbloemsma/msal-react';
+import {AuthenticatedTemplate, UnauthenticatedTemplate, useMsal} from '@azure/msal-react';
 
 import './App.css';
 
