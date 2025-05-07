@@ -30,12 +30,14 @@ $ npm run dev
 `http://localhost:5173` にアクセスします。
 
 ## Notes
-現在 (2025-02-21) は、@azure/msal-react が React v19 に対応していません。  
-https://github.com/AzureAD/microsoft-authentication-library-for-js/issues/7577  
-そのため、本家のチュートリアルで利用しているライブラリを差し替えています。  
-  
-構築手順は以下。
+~~現在 (2025-02-21) は、@azure/msal-react が React v19 に対応していません。~~  
+~~https://github.com/AzureAD/microsoft-authentication-library-for-js/issues/7577~~  
+~~そのため、本家のチュートリアルで利用しているライブラリを差し替えています。~~  
 
+2025-05-06 に React v19 対応版がリリースされました。
+https://github.com/AzureAD/microsoft-authentication-library-for-js/pull/7735
+
+構築手順は以下。
 
 ```sh
 npm create vite@latest vitespalocal -- --template react
